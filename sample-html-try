@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>quizy</title>
+</head>
+
+ <table  border align="left" border="1" id="p2146-table" >
+  <thead>
+    <tr>
+      <th>1コート</th>
+      <th>追加/削除</th>
+    </tr>
+  </thead>
+
+<!--▼改行しない▼-->
+<tbody id="p2146-tbody"><tr><td><div style="text-align: center"><select onchange="changeList(this);">
+  <option value="">8</option>
+  <option value="">9</option>
+  <option value="">10</option>
+  <option value="">11</option>
+  <option value="">12</option>
+  <option value="">13</option>
+  <option value="">14</option>
+  <option value="">15</option>
+  <option value="">16</option>
+  <option value="">17</option>
+  <option value="">18</option>
+  <option value="">19</option>
+  <option value="">20</option>
+  <option value="">21</option>
+  <option value="">22</option>
+ </select>:<select name="">
+  <option value="">00</option>
+  <option value="">05</option>
+  <option value="">10</option>
+  <option value="">15</option>
+  <option value="">20</option>
+  <option value="">25</option>
+  <option value="">30</option>
+  <option value="">35</option>
+  <option value="">40</option>
+  <option value="">45</option>
+  <option value="">50</option>
+  <option value="">55</option>
+       </select>
+       <br>
+     <input type="text"  size="6" placeholder="名前" name="" />(<select name="">
+  <option value="">学校名</option>
+  <option value="">青学</option>
+  <option value="">学習</option>
+  <option value="">慶應</option>
+  <option value="">順天</option>
+  <option value="">上智</option>
+  <option value="">専修</option>
+  <option value="">東海</option>
+  <option value="">東大</option>
+  <option value="">東農</option>
+  <option value="">日大</option>
+  <option value="">日体</option>
+  <option value="">明治</option>
+  <option value="">早稲田</option>
+</select>)
+    <br>vs<br>
+ <input type="text"  size="6" placeholder="名前" name="" />(<select name="">
+  <option value="">学校名</option>
+  <option value="">青学</option>
+  <option value="">学習</option>
+  <option value="">慶應</option>
+  <option value="">順天</option>
+  <option value="">上智</option>
+  <option value="">専修</option>
+  <option value="">東海</option>
+  <option value="">東大</option>
+  <option value="">東農</option>
+  <option value="">日大</option>
+  <option value="">日体</option>
+  <option value="">明治</option>
+  <option value="">早稲田</option>
+</select>)<td><div style="text-align: center"><input type="button" value="+" onclick="addList(this);" /> <input type="button" value="-" onclick="removeList(this);" /></td></tr></tbody>
+<!--▲改行しない▲-->
+
+</table>
+
+<p></p>
+
+<table border align="left"border="1" id="p2147-table">
+  <thead>
+    <tr>
+      <th>2コート</th>
+      <th>追加/削除</th>
+    </tr>
+  </thead>
+
+<!--▼改行しない▼-->
+<tbody id="p2147-tbody"><tr><td><div style="text-align: center"><select onchange="changeList(this);">
+  <option value="">8</option>
+  <option value="">9</option>
+  <option value="">10</option>
+  <option value="">11</option>
+  <option value="">12</option>
+  <option value="">13</option>
+  <option value="">14</option>
+  <option value="">15</option>
+  <option value="">16</option>
+  <option value="">17</option>
+  <option value="">18</option>
+  <option value="">19</option>
+  <option value="">20</option>
+  <option value="">21</option>
+  <option value="">22</option>
+ </select>:<select name="">
+  <option value="">00</option>
+  <option value="">05</option>
+  <option value="">10</option>
+  <option value="">15</option>
+  <option value="">20</option>
+  <option value="">25</option>
+  <option value="">30</option>
+  <option value="">35</option>
+  <option value="">40</option>
+  <option value="">45</option>
+  <option value="">50</option>
+  <option value="">55</option>
+       </select>
+       <br>
+     <input type="text"  size="6" placeholder="名前" name="" />(<select name="">
+  <option value="">学校名</option>
+  <option value="">青学</option>
+  <option value="">学習</option>
+  <option value="">慶應</option>
+  <option value="">順天</option>
+  <option value="">上智</option>
+  <option value="">専修</option>
+  <option value="">東海</option>
+  <option value="">東大</option>
+  <option value="">東農</option>
+  <option value="">日大</option>
+  <option value="">日体</option>
+  <option value="">明治</option>
+  <option value="">早稲田</option>
+</select>)
+    <br>vs<br>
+ <input type="text"  size="6" placeholder="名前" name="" />(<select name="">
+  <option value="">学校名</option>
+  <option value="">青学</option>
+  <option value="">学習</option>
+  <option value="">慶應</option>
+  <option value="">順天</option>
+  <option value="">上智</option>
+  <option value="">専修</option>
+  <option value="">東海</option>
+  <option value="">東大</option>
+  <option value="">東農</option>
+  <option value="">日大</option>
+  <option value="">日体</option>
+  <option value="">明治</option>
+  <option value="">早稲田</option>
+</select>)<td><div style="text-align: center"><input type="button" value="+" onclick="addList(this);" /> <input type="button" value="-" onclick="removeList(this);" /></td></tr></tbody>
+<!--▲改行しない▲-->
+
+</table>
+
+<table border="1" id="p2148-table">
+  <thead>
+    <tr>
+      <th>3コート</th>
+      <th>追加/削除</th>
+    </tr>
+  </thead>
+
+<!--▼改行しない▼-->
+<tbody id="p2148-tbody"><tr><td><div style="text-align: center"><select onchange="changeList(this);">
+  <option value="">8</option>
+  <option value="">9</option>
+  <option value="">10</option>
+  <option value="">11</option>
+  <option value="">12</option>
+  <option value="">13</option>
+  <option value="">14</option>
+  <option value="">15</option>
+  <option value="">16</option>
+  <option value="">17</option>
+  <option value="">18</option>
+  <option value="">19</option>
+  <option value="">20</option>
+  <option value="">21</option>
+  <option value="">22</option>
+ </select>:<select name="">
+  <option value="">00</option>
+  <option value="">05</option>
+  <option value="">10</option>
+  <option value="">15</option>
+  <option value="">20</option>
+  <option value="">25</option>
+  <option value="">30</option>
+  <option value="">35</option>
+  <option value="">40</option>
+  <option value="">45</option>
+  <option value="">50</option>
+  <option value="">55</option>
+       </select>
+       <br>
+     <input type="text"  size="6" placeholder="名前" name="" />(<select name="">
+  <option value="">学校名</option>
+  <option value="">青学</option>
+  <option value="">学習</option>
+  <option value="">慶應</option>
+  <option value="">順天</option>
+  <option value="">上智</option>
+  <option value="">専修</option>
+  <option value="">東海</option>
+  <option value="">東大</option>
+  <option value="">東農</option>
+  <option value="">日大</option>
+  <option value="">日体</option>
+  <option value="">明治</option>
+  <option value="">早稲田</option>
+</select>)
+    <br>vs<br>
+ <input type="text"  size="6" placeholder="名前" name="" />(<select name="">
+  <option value="">学校名</option>
+  <option value="">青学</option>
+  <option value="">学習</option>
+  <option value="">慶應</option>
+  <option value="">順天</option>
+  <option value="">上智</option>
+  <option value="">専修</option>
+  <option value="">東海</option>
+  <option value="">東大</option>
+  <option value="">東農</option>
+  <option value="">日大</option>
+  <option value="">日体</option>
+  <option value="">明治</option>
+  <option value="">早稲田</option>
+</select>)<td><div style="text-align: center"><input type="button" value="+" onclick="addList(this);" /> <input type="button" value="-" onclick="removeList(this);" /></td></tr></tbody>
+<!--▲改行しない▲-->
+
+</table>
