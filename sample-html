@@ -18,3 +18,9 @@
       <th>追加/削除</th>
     </tr>
   </thead>
+  
+  <!--▼改行しない▼-->
+<tbody id="p2146-tbody"><tr><td><select onchange="changeList(this);"><option>A</option><option>B</option><option>C</option></select></td><td>A</td><td><img src="up.png" alt="↑" onclick="upList(this);" />上へ　<img src="down.png" alt="↓" onclick="downList(this);" />下へ</td><td><input type="button" value="+" onclick="addList(this);" />　<input type="button" value="-" onclick="removeList(this);" /></td></tr></tbody>
+<!--▲改行しない▲-->
+
+</table>
